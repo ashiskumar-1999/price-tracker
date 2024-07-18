@@ -33,10 +33,11 @@ export default function Home() {
               data.market_data.price_change_percentage_24h_in_currency.usd
             }
           />
+          <PriceTabs />
         </>
       ) : (
-        <Text fontSize="lg" fontWeight="bold">
-          error
+        <Text fontSize="2xl" fontWeight="bold" color="red">
+          Something went wrong
         </Text>
       )}
     </Layout>
