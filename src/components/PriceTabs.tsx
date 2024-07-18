@@ -100,6 +100,7 @@ const PriceTabs = () => {
           ))}
         </TabList>
         <TabIndicator height="2px" bg="purple" borderRadius="1px" />
+        <Divider color="gray.100" />
         <TabPanels>
           <TabPanel></TabPanel>
           <TabPanel>
