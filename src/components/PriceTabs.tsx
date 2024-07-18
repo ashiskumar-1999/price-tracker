@@ -111,7 +111,6 @@ const PriceTabs = () => {
                   onClick={() => setDays(data.days)}
                 />
               ))}
-              <Divider />
               {data && (
                 <Box
                   width="830px"
