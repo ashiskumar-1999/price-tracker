@@ -9,6 +9,7 @@ type buttonProp = {
 const CutsomButton = ({ label, onClick }: buttonProp) => {
   return (
     <Button
+      bgColor="none"
       width="50px"
       height="33px"
       borderRadius={5}
