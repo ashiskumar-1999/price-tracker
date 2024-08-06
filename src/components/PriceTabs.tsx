@@ -42,7 +42,7 @@ const ButtonLabels = [
   { label: "1y", days: 365 },
 ];
 
-const TabNames = ["Summery", "Chart", "Statistics", " Analysis", "Settings"];
+const TabNames = ["Chart", " Summery", "Statistics", " Analysis", "Settings"];
 
 const PriceTabs = () => {
   const [days, setDays] = useState(1);
@@ -102,7 +102,6 @@ const PriceTabs = () => {
         <TabIndicator height="2px" bg="purple" borderRadius="1px" />
         <Divider borderColor="gray.100" />
         <TabPanels>
-          <TabPanel></TabPanel>
           <TabPanel>
             <Box>
               {ButtonLabels.map((data) => (
